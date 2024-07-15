@@ -1,0 +1,291 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Corpo da página */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilização do menu */
+.menu {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu__title {
+    margin: 10px 0;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.menu__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__list__item {
+    margin: 10px 0;
+}
+
+.menu__list__item a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.menu__list__item a:hover {
+    color: #007BFF;
+}
+
+.menu__list__item__contato {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Estilização do título/hero */
+.title {
+    background: url('assets/background.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.title__bio {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.title__subsection {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.title__network {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.title__network__item {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.title__network__item a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.title__network__item:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.title__profile {
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Estilização das seções */
+section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Sobre mim */
+.about__title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about__paragraph {
+    margin-bottom: 20px;
+}
+
+/* Skills */
+.skills__title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.skills__line {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skills__box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills__img img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+
+/* Hobbies */
+.hobbies__title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.hobbies__line {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hobbies__box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hobbies__img img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+
+/* Formação acadêmica */
+.academic__title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.academic__courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.academic__courses__box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.academic__courses__item__img img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+/* Experiência */
+.experience__section__title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.experiencie__box {
+    display: flex;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.experience__img {
+    max-width: 150px;
+}
+
+.experience__title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.experience__description {
+    display: flex;
+    gap: 10px;
+}
+
+.experiencia__botao--repo, .experiencia__botao--demo {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.experiencia__botao--repo:hover, .experiencia__botao--demo:hover {
+    background-color: #0056b3;
+}
+
+/* Formulário de contato */
+.formcontato__contacto {
+    display: flex;
+    gap: 20px;
+}
+
+.formcontato--esquerda {
+    flex: 1;
+}
+
+.formcontato__text {
+    flex: 1;
+}
+
+.formcontato__title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.formcontato__input, .formcontato__textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.formcontato__botao {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formcontato__botao:hover {
+    background-color: #0056b3;
+}
+
+/* Rodapé */
+.footer__rodape {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer__rodape p {
+    margin: 5px 0;
+}
